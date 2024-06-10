@@ -18,6 +18,13 @@ body {
   justify-content: center;
 }
 
+main {
+  flex: 1; /* take up the available space, and stay in the middle. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Card block */
 .card {
   background: hsl(0, 0%, 100%);
@@ -56,6 +63,11 @@ body {
   text-align: center;
   line-height: 20px;
   padding: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
 }
 
 /* Attribution */
