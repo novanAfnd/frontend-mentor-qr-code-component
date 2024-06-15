@@ -14,8 +14,8 @@ body {
   height: 100vh; /* take up the entire vertical height of the user’s screen */
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 main {
